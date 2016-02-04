@@ -56,15 +56,15 @@ Note that the development and testing have been done using a Windows 7 machine.
 ### Building the Android code
 The instructions are specific to a Linux operating system ([Ubuntu 14.04](http://www.ubuntu.com/download/desktop) has been used in this case). The development had been done using [Android Studio](http://developer.android.com/sdk/index.html).
 
-1.  Set the path to the JAVA_HOME:
+*  Set the path to the JAVA_HOME:
 ```bash
 export JAVA_HOME=<your JDK path>
 ```
-2.  Set the path to the ANDROID_HOME:
+*  Set the path to the ANDROID_HOME:
 ```bash
 export ANDROID_HOME=<the path to the andorid SDK>
 ```
-3.  Open a bash prompt and execute this command:
+*  Open a bash prompt and execute this command:
 ```bash
 ./gradlew clean build
 ```
