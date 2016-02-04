@@ -23,6 +23,7 @@ In order to be able to use the application, one needs to:
 The application provides a menu for connecting/disconnecting from robot's bluetooth (connection works only if the name of the device is 'ArcBotics').
 
 Once the two devices are paired, the user can perform the following:
+
 1.  Control the movement from the 'Movement control' section (buttons are available for left rotation, right rotation, moving forward, moving backward and stopping the robot).
 2.  Control the gripper (closing, opening and stopping the gripper) using the buttons in 'Gripper control' section.
 3.  Display the light levels detected by the light sensors (they are displayed as gray scale using three buttons). Reading the sensor data can be controlled using a 'pause' button present in the 'Light sensors' section.
@@ -47,13 +48,15 @@ Saying 'cancel' will stop the voice command listening.
 ## Building the code
 ### Building the Arduino code
 Note that the development and testing have been done using a Windows 7 machine.
+
 1.  Download and install SparkiDuino following the instructions available on [ArcBotics](http://arcbotics.com/lessons/sparkiduino-windows-install-guide/)' site.
 2.  Import the arduino/bluetooth.ino file.
 3.  Compile and upload your code to the robot (this assumes that the USB connectivity to your robot works).
 
 ### Building the Android code
 The instructions are specific to a Linux operating system ([Ubuntu 14.04](http://www.ubuntu.com/download/desktop) has been used in this case). The development had been done using [Android Studio](http://developer.android.com/sdk/index.html).
-1.  Set the path to the JAVAe	_HOME:
+
+1.  Set the path to the JAVA_HOME:
 ```bash
 export JAVA_HOME=<your JDK path>
 ```
@@ -65,6 +68,7 @@ export ANDROID_HOME=<the path to the andorid SDK>
 ```bash
 ./gradlew clean build
 ```
+
 This will produce the APK that can be installed on your Android phone.
 Note that currently the android application is in alpha testing and as soon as that finishes, it will be available through [Google Play Store](https://play.google.com/).
 
