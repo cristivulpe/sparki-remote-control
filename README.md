@@ -72,4 +72,4 @@ export ANDROID_HOME=<the path to the andorid SDK>
 This will produce the APK that can be installed on your Android phone. The app is also avaialble on [Google Play Store] (https://play.google.com/store/apps/details?id=com.swedesboro_woolwich.remotecontrol).
 
 ## Compatibility
-This application has been tested using Google Nexus 6 running Android Marshmallow. The arduino code has been deployed to an Arduino Sparki robot.  
+This application has been tested using Google Nexus 6 and Google Nexus 5 running Android Marshmallow. The arduino code has been deployed and tested using an Arduino Sparki robot.
