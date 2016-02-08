@@ -16,8 +16,8 @@ For convenience, the source code is distributed as a single bundle.
 ## User's guide
 In order to be able to use the application, one needs to:
 
-1.  Fetch the source code from GitHub.
-2.  Build and deploy the source code (please see next section for details how to do that).
+1.  Fetch the source code from GitHub (the android app can be installed directly from [Google Play Store] (https://play.google.com/store/apps/details?id=com.swedesboro_woolwich.remotecontrol)).
+2.  Build and deploy the source code (please see next section for details on how to do that).
 3.  Once both the android app and the arduino code are installed on the respective devices, pair your phone with the robot.
 
 The application provides a menu for connecting/disconnecting from robot's bluetooth (connection works only if the name of the device is 'ArcBotics').
@@ -69,8 +69,7 @@ export ANDROID_HOME=<the path to the andorid SDK>
 ./gradlew clean build
 ```
 
-This will produce the APK that can be installed on your Android phone.
-Note that currently the android application is in alpha testing and as soon as that finishes, it will be available through [Google Play Store](https://play.google.com/).
+This will produce the APK that can be installed on your Android phone. The app is also avaialble on [Google Play Store] (https://play.google.com/store/apps/details?id=com.swedesboro_woolwich.remotecontrol).
 
 ## Compatibility
 This application has been tested using Google Nexus 6 running Android Marshmallow. The arduino code has been deployed to an Arduino Sparki robot.  
